@@ -34,9 +34,8 @@ This repository contains a deep learning-based solution for detecting crop disea
     └── uploads
 ├── templates/
 │   |── index.html  
-│── model.py              # Model architecture and training code
-│── utils.py              # Utility functions for preprocessing
-│── predict.py            # Script for making predictions
+│── app.py              
+│── gem.py           
 ├── requirements.txt          # Required Python libraries
 └── README.md                 # Project documentation
 
