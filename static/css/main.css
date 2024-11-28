@@ -1,0 +1,39 @@
+body {
+    background-color: #f8f9fa;
+}
+.container {
+    max-width: 600px;
+    margin-top: 50px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #007bff;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+.result {
+    margin-top: 20px;
+}
+.output {
+    white-space: pre-wrap; /* Wrap text while preserving formatting */
+    word-wrap: break-word; /* Break long words */
+    overflow-wrap: break-word; /* Cross-browser support for word wrapping */
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    padding: 10px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    max-width: 100%; /* Limit the width to container size */
+    font-family: 'Times New Roman', Times, serif; /* Readable font */
+    font-size: 14px; /* Adjust font size for better display */
+    line-height: 1.5; /* Increase line height for readability */
+    text-align: left; /* Align text to the left for readability */
+    box-sizing: border-box; /* Ensure padding is included in the width */
+}
