@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"/>
+    <title>Crop Disease Prediction</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center">Crop Disease Prediction</h1>
+        <form action="/" method="POST" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="file">Upload Crop Image:</label>
+                <input type="file" name="image" class="form-control-file" accept="image/*" required>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Predict</button>
+        </form>
+
+        <!-- Display results -->
+        {% if result %}
+        <div class="result-container text-center mt-4">
+            <h3>Predicted Disease: {{ result }}</h3>
+
+            <div class="suggestions">
+                <h4>Suggestions:</h4>
+                <!-- Render the formatted suggestions -->
+                <div class="output">
+                    <pre>{{ suggestions|safe }}</pre>
+                </div>
+            </div>
+
+            <div class="image-container">
+                <h4>Uploaded Image:</h4>
+                <img src="{{ image_url }}" alt="Uploaded Image">
+            </div>
+        </div>
+        {% endif %}
+
+        {% if error %}
+        <p style="color: red;">{{ error }}</p>
+        {% endif %}
+    </div>
+</body>
+</html>
