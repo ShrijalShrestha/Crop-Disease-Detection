@@ -39,3 +39,18 @@ This repository contains a deep learning-based solution for detecting crop disea
 ├── requirements.txt          # Required Python libraries
 └── README.md                 # Project documentation
 
+⚙️ Setup & Installation
+Clone the repository:
+
+bash
+Copy code
+git clone https://github.com/yourusername/crop-disease-detection.git
+cd crop-disease-detection
+Install dependencies:
+
+bash
+Copy code
+pip install -r requirements.txt
+Download the dataset:
+
+PlantVillage Dataset (download and place it in the data/ folder)
