@@ -1,0 +1,10 @@
+Flask==2.1.3                    # For the web application
+tensorflow==2.9.0               # For deep learning and model training
+keras==2.9.0                    # Keras for high-level neural networks API
+numpy==1.23.3                   # For numerical computations
+pandas==1.4.4                   # For data manipulation
+scikit-learn==1.1.2             # For evaluation metrics
+opencv-python==4.6.0.66         # For image preprocessing
+Pillow==9.2.0                   # For handling image input/output
+matplotlib==3.5.3               # For plotting and visualizations
+Werkzeug==2.1.3                 # WSGI utility library for Flask
