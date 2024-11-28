@@ -27,30 +27,36 @@ This repository contains a deep learning-based solution for detecting crop disea
 │   ├── train/                # Training images
 │   ├── validation/           # Validation images
 │   └── test/                 # Test images
-├── crop_disease_model.h5 # Saved trained model
-├── tansfer_learning.ipynb # Jupyter notebook for training
+├── crop_disease_model.h5     # Saved trained model
+├── transfer_learning.ipynb   # Jupyter notebook for training
 ├── static/
-│   |── css      # Sample images for testing
-    └── uploads
+│   ├── css/                  # CSS files for styling (if applicable)
+│   └── uploads/              # Folder for uploaded images
 ├── templates/
-│   |── index.html  
-│── app.py              
-│── gem.py           
+│   └── index.html            # HTML template for the web interface
+├── app.py                    # Flask application script
+├── gem.py                    # Additional utility script (if applicable)
 ├── requirements.txt          # Required Python libraries
 └── README.md                 # Project documentation
+```
+---
 
-⚙️ Setup & Installation
-Clone the repository:
-
-bash
-Copy code
+## ⚙️ **Setup & Installation**
+- Clone the repository:
+```plaintext
 git clone https://github.com/yourusername/crop-disease-detection.git
 cd crop-disease-detection
-Install dependencies:
+```
+- Install dependencies:
 
-bash
-Copy code
+```plaintext
 pip install -r requirements.txt
-Download the dataset:
+```
+- Download the dataset:
+[PlantVillage Dataset](https://data.mendeley.com/datasets/tywbtsjrjv/1)
 
-PlantVillage Dataset (download and place it in the data/ folder)
+- Run the transfer_learning.ipynb to train the model
+- Run the app
+```plaintext
+python app.py
+```
