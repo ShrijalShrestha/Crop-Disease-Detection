@@ -1,12 +1,12 @@
 # Crop Disease Detection Using Deep Learning 🌱🧪
 
-This repository contains a deep learning-based solution for detecting crop diseases from images using transfer learning. The goal is to assist farmers in identifying crop diseases early, improving yields, and reducing economic losses. The project leverages the **VGG16** architecture and the **PlantVillage dataset** for training and evaluation.
+This repository contains a deep learning-based solution for detecting crop diseases from images using transfer learning. The goal is to assist farmers in identifying crop diseases early, improving yields, and reducing economic losses. The project leverages the **ResNet50V2** architecture and the **PlantVillage dataset** for training and evaluation.
 
 ---
 
 ## 🌟 **Project Overview**
 - **Objective**: To classify 39 different crop disease categories using smartphone-captured images.
-- **Model**: Convolutional Neural Network (CNN) with transfer learning using **VGG16** and **ResNet50V2**.
+- **Model**: Convolutional Neural Network (CNN) with transfer learning using **ResNet50V2**.
 - **Dataset**: The publicly available [PlantVillage dataset](https://www.kaggle.com/emmarex/plantdisease) from Kaggle.
 - **Deployment**: The model is intended to be deployed as a mobile/web app for real-time disease detection.
 
