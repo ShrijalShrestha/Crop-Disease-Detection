@@ -14,7 +14,7 @@ This repository contains a deep learning-based solution for detecting crop disea
 
 ## 🚀 **Key Features**
 - **Real-Time Disease Detection**: Upload an image and get instant disease diagnosis.
-- **Transfer Learning**: Utilizes pretrained VGG16 for feature extraction and classification.
+- **Transfer Learning**: Utilizes pretrained ResNet50V2 for feature extraction and classification.
 - **Data Augmentation**: Enhances training with transformations like rotation, flipping, and zooming.
 - **Regularization**: Implements early stopping and dropout to prevent overfitting.
 - **Evaluation Metrics**: Achieved 94% test accuracy, with a precision of 92.9% and an F1-score of 92.5%.
